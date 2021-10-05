@@ -17,10 +17,14 @@
         <p>En esta web buscamos mejorar y añadir más datos e información sobre Alan Key, por ello, si tienes alguna aportación, te animamos a que la incluyas en este formulario y si lo creemos conveniente, contactaremos contigo para añadirla.</p>
 
         <form name="sugerencias">
-            <label><input type="text" >Nombre y apellidos</label><br>
-            <label><input type="date">Fecha nacimiento</label><br>
-            <label><input type="number">Telefono</label><br>
-            <label><input type="email" >E-mail</label><br>
+            <label for="num">Nombre y apellidos</label>
+                <input id="num" type="text" ><br>
+            <label for="birth">Fecha nacimiento</label>
+                <input id="birth" type="date"><br>
+            <label for="tlfn">Telefono</label>
+                <input id="tlfn" type="number"><br>
+            <label for="email">E-mail</label>
+                <input id="email" type="email" ><br>
 
             <fieldset>
                 <legend>¿Sobre qué apartados crees que hay que hacer cambios?</legend>
@@ -31,9 +35,11 @@
                 
             </fieldset>
             
-            <label>Sugerencias de cambio:<textarea cols="30" rows="12" ></textarea></label><br>
+            <label for="taRec">Sugerencias de cambio:</label>
+                <textarea id="taRec" cols="30" rows="12" ></textarea><br>
             
-            <label>¿Deseas sugerir alguna sección nueva?<textarea cols="15" rows="3" ></textarea></label><br>
+            <label for="taAdd">¿Deseas sugerir alguna sección nueva?</label>
+                <textarea id="taAdd" cols="15" rows="3" ></textarea><br>
             <input type="button" 
                 value="Enviar sugerencia">
         </form>
