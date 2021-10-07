@@ -1,10 +1,12 @@
+/*specificity =   0*/
 
 body {
     font-family: Monaco , sans-serif;
     color: #FFFF;
     background-color:#000000;
  }
- 
+ /*specificity =   0*/
+
 h1 {
     color: #fff;
     font-family: Monaco , sans-serif;
@@ -13,6 +15,7 @@ h1 {
     text-transform: uppercase;
     text-align: center; 
 }
+
 
 table, th, td {
     border: 0.0625em solid #4700B3;
@@ -55,3 +58,17 @@ nav a {
     margin: 0.3125em;
     font-family: Monaco , sans-serif;
 }
+/*specificity =   0*/
+p {
+    text-align: justify;
+}
+
+img {
+    border-radius: 8px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    align-content: center;
+  }
