@@ -1,5 +1,4 @@
 
-
 body {
     font-family: Monaco , sans-serif;
     color: #FFFF;
@@ -21,31 +20,38 @@ table, th, td {
 
 /*specificity =   0*/
 ol {
-    background: #4700B3;
+    color: #fff;
+    background-color: #4700B3;
     padding: 1.25em;
 }
 /*specificity =   0*/
 ul {
-    background: #4700B3;
+    color: #fff;
+    background-color: #4700B3;
     padding: 1.25em;
 }
 /*specificity =   1*/
 ol li {
-    background: #5E00EB;
+    color: #fff;
+    background-color: #5E00EB;
     padding: 0.3125em;
     margin-left: 2.1875em;
 }
 /*specificity =   1*/
 ul li {
-    background: #5E00EB;
+    color: #fff;
+    background-color: #5E00EB;
     margin: 0.3125em;
 }
 /*specificity =   0*/
 nav {
-    
+    background-color: #4700B3;
+
+
 }
 /*specificity =   1*/
 nav a {
     color: #fff;
+    margin: 0.3125em;
     font-family: Monaco , sans-serif;
 }
