@@ -24,7 +24,7 @@ h2,h3{
 }
 
 /*Selector Specificity: (0, 0, 1)*/
-table, th, td {
+table, th, td,tr {
     border-width: 0.0625em ; /*caniuse, stable L3*/
     border-style: solid;;
     border-color: #4700B3;
