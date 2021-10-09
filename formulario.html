@@ -14,74 +14,86 @@
     </head>
     <body>
 
+        <nav>
+            <a title="Biografia"
+            accesskey="B"
+            tabindex="1"
+            href= "index.html">
+                Biografia
+            </a>
+
+            <a title="Citas y Recomendaciones"
+            accesskey="C"
+            tabindex="2"
+            href= "citasYRecomendaciones.html">
+                Citas y Recomendaciones
+            </a>
+
+            <a title="Premios"
+            accesskey="P"
+            tabindex="3"
+            href= "premios.html">
+                Premios
+            </a>
+
+            <a title="Sugerencias y Aportaciones"
+            accesskey="S"
+            tabindex="4"
+            href= "formulario.html">
+            Sugerencias y Aportaciones
+            </a>
+        </nav>
+
+
 
         <header>
-            <nav>
-                <a title="Biografia"
-                accesskey="B"
-                tabindex="1"
-                href= "index.html">
-                    Biografia
-                </a>
-    
-                <a title="Citas y Recomendaciones"
-                accesskey="C"
-                tabindex="2"
-                href= "citasYRecomendaciones.html">
-                    Citas y Recomendaciones
-                </a>
-    
-                <a title="Premios"
-                accesskey="P"
-                tabindex="3"
-                href= "premios.html">
-                    Premios
-                </a>
-    
-                <a title="Sugerencias y Aportaciones"
-                accesskey="S"
-                tabindex="4"
-                href= "formulario.html">
-                Sugerencias y Aportaciones
-                </a>
-            </nav>
-    
+         
             
             <h1>SUGERENCIAS Y APORTACIONES</h1>
+
+            
+
         </header>
         
-        <p>En esta web buscamos mejorar y añadir más datos e información sobre Alan Key, por ello, si tienes alguna aportación, te animamos a que la incluyas en este formulario y si lo creemos conveniente, contactaremos contigo para añadirla.</p>
+        <section>
 
-        <form name="sugerencias">
-            <label for="num">Nombre y apellidos</label>
-                <input id="num" type="text" ><br>
-            <label for="birth">Fecha nacimiento</label>
-                <input id="birth" type="date"><br>
-            <label for="tlfn">Telefono</label>
-                <input id="tlfn" type="number"><br>
-            <label for="email">E-mail</label>
-                <input id="email" type="email" ><br>
+            <h2>En esta web buscamos mejorar y añadir más datos e información sobre Alan Key, por ello, si tienes alguna aportación, te animamos a que la incluyas en este formulario y si lo creemos conveniente, contactaremos contigo para añadirla.</h2>
 
-            <fieldset>
-                <legend>¿Sobre qué apartados crees que hay que hacer cambios?</legend>
             
-                <label for="ch1">Biografia</label>
-                    <input id="ch1" type="checkbox" value="BIOGRAFIA"><br>
-                <label for="ch2">Premios</label>
-                    <input id="ch2" type="checkbox" value="PREMIOS"><br>
-                <label for="ch3">Citas y recomendaciones</label>
-                    <input id="ch3" type="checkbox" value="CITAS Y RECOMENDACIONES"><br>
+            <form name="sugerencias">
+                <label for="num">Nombre y apellidos</label>
+                    <input id="num" type="text" ><br>
+                <label for="birth">Fecha nacimiento</label>
+                    <input id="birth" type="date"><br>
+                <label for="tlfn">Telefono</label>
+                    <input id="tlfn" type="number"><br>
+                <label for="email">E-mail</label>
+                    <input id="email" type="email" ><br>
+
+                <fieldset>
+                    <legend>¿Sobre qué apartados crees que hay que hacer cambios?</legend>
                 
-            </fieldset>
-            
-            <label for="taRec">Sugerencias de cambio:</label>
-                <textarea id="taRec" cols="30" rows="12" ></textarea><br>
-            
-            <label for="taAdd">¿Deseas sugerir alguna sección nueva?</label>
-                <textarea id="taAdd" cols="15" rows="3" ></textarea><br>
-            <input type="submit" 
-                value="Enviar sugerencia">
-        </form>
+                    <label for="ch1">Biografia</label>
+                        <input id="ch1" type="checkbox" value="BIOGRAFIA"><br>
+                    <label for="ch2">Premios</label>
+                        <input id="ch2" type="checkbox" value="PREMIOS"><br>
+                    <label for="ch3">Citas y recomendaciones</label>
+                        <input id="ch3" type="checkbox" value="CITAS Y RECOMENDACIONES"><br>
+                    
+                </fieldset>
+                
+                <label for="taRec">Sugerencias de cambio:</label>
+                    <textarea id="taRec" cols="30" rows="12" ></textarea><br>
+                
+                <label for="taAdd">¿Deseas sugerir alguna sección nueva?</label>
+                    <textarea id="taAdd" cols="15" rows="3" ></textarea><br>
+                <input type="submit" 
+                    value="Enviar sugerencia">
+            </form>
+
+
+        </section>
+        
         <footer>Desarrollado por Martin Beltran Diaz</footer>
     </body>
 </html>
