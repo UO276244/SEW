@@ -37,6 +37,7 @@ article{
 }
 /*Selector Specificity: (0, 0, 1)*/
 section {
+    
     text-align: center;
 }
 
@@ -85,7 +86,7 @@ nav a {
 p {
     text-align: justify;
 }
-
+/*Selector Specificity: (0, 0, 1)*/
 img{
     width: auto;
     height: auto;
@@ -97,7 +98,8 @@ video {
     height: 60%;
 
 }
-/*Selector Specificity: (0, 0, 1)*/
-label{
-    text-align: center;
+/*Selector Specificity: (0, 0, 2)*/
+section label{
+   
+    padding: 0.5em;
 }
