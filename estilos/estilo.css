@@ -98,8 +98,4 @@ video {
     height: 60%;
 
 }
-/*Selector Specificity: (0, 0, 2)*/
-section label{
-   
-    padding: 0.5em;
-}
+
