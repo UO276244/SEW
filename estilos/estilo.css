@@ -86,6 +86,10 @@ p {
     text-align: justify;
 }
 
+img{
+    width: auto;
+    height: auto;
+}
 
 /*Selector Specificity: (0, 0, 1)*/
 video {
