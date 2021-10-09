@@ -12,6 +12,8 @@ h1 {
     background-color:#4700B3;  /*caniuse, stable L3*/
     text-align: center;  /*caniuse*/
 }
+
+/*Selector Specificity: (0, 0, 1)*/
 h2,h3{
     text-align: justify;
     font-size: medium;
@@ -27,13 +29,13 @@ table, th, td {
     border-style: solid;;
     border-color: #4700B3;
 }
-
+/*Selector Specificity: (0, 0, 1)*/
 article{
     border-width: 0.5em ; /*caniuse, stable L3*/
     border-style: solid;;
     border-color: #4700B3;
 }
-
+/*Selector Specificity: (0, 0, 1)*/
 section {
     text-align: center;
 }
@@ -91,7 +93,7 @@ video {
     height: 60%;
 
 }
-
+/*Selector Specificity: (0, 0, 1)*/
 label{
     text-align: center;
 }
