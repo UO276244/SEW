@@ -98,4 +98,17 @@ video {
     height: 60%;
 
 }
+/*Selector Specificity: (0, 1, 2)*/
+form input:focus{
+
+    background-color: #4700B3;
+    color:#fff;
+
+}
+
+/*Selector Specificity: (0, 1, 2)*/
+form textarea:focus{
+    background-color: #4700B3;
+    color:#fff;
+}
 
