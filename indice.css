@@ -1,0 +1,14 @@
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    
+}
+
+main article{
+    padding: 2%;
+}
+
+main section{
+    padding: 2%;
+}
