@@ -30,8 +30,9 @@ table, th, td,tr {
     border-color: #4700B3;
 }
 
-/*Selector Specificity: (0, 0, 1)*/
 @media only screen and (min-width: 40em) {
+    
+/*Selector Specificity: (0, 0, 1)*/
 article{
     border-width: 0.5em ; 
     border-style: solid;;
