@@ -29,12 +29,18 @@ table, th, td,tr {
     border-style: solid;;
     border-color: #4700B3;
 }
+
 /*Selector Specificity: (0, 0, 1)*/
+@media only screen and (min-width: 430px) {
 article{
     border-width: 0.5em ; 
     border-style: solid;;
     border-color: #4700B3;
+    }
 }
+
+
+
 /*Selector Specificity: (0, 0, 1)*/
 section {
     
@@ -58,7 +64,7 @@ ol li {
     color: #fff;
     background-color: #5E00EB;
     padding: 0.3125em;
-    margin-left: 2.1875em; /*caniuse*/
+    margin-left: 2.1875em; 
     
 }
 /*Selector Specificity: (0, 0, 2)*/
