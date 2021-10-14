@@ -31,7 +31,7 @@ table, th, td,tr {
 }
 
 /*Selector Specificity: (0, 0, 1)*/
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 40em) {
 article{
     border-width: 0.5em ; 
     border-style: solid;;
