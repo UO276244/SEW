@@ -23,15 +23,9 @@ h2,h3{
     
 }
 
-/*Selector Specificity: (0, 0, 1)*/
-table, th, td,tr {
-    border-width: 0.0625em ; 
-    border-style: solid;;
-    border-color: #4700B3;
-}
+
 
 @media only screen and (min-width: 40em) {
-    
 /*Selector Specificity: (0, 0, 1)*/
 article{
     border-width: 0.5em ; 
@@ -68,18 +62,21 @@ ol li {
     margin-left: 2.1875em; 
     
 }
+
 /*Selector Specificity: (0, 0, 2)*/
 ul li {
     color: #fff;
     background-color: #5E00EB;
     margin: 0.3125em;
 }
+
 /*Selector Specificity: (0, 0, 1)*/
 nav {
     background-color: #4700B3;
     font-family: Monaco , sans-serif;
     color: #FFFF;
 }
+
 /*Selector Specificity: (0, 0, 2)*/
 nav a {
     color: #fff;
