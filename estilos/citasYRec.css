@@ -1,0 +1,28 @@
+
+/*Selector Specificity: (0, 0, 1)*/
+ol {
+    color: #fff;
+    background-color: #4700B3;
+    padding: 1.25em;
+}
+/*Selector Specificity: (0, 0, 1)*/
+ul {
+    color: #fff;
+    background-color: #4700B3;
+    padding: 1.25em;
+}
+/*Selector Specificity: (0, 0, 2)*/
+ol li {
+    color: #fff;
+    background-color: #5E00EB;
+    padding: 0.3125em;
+    margin-left: 2.1875em; 
+    
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+ul li {
+    color: #fff;
+    background-color: #5E00EB;
+    margin: 0.3125em;
+}

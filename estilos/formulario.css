@@ -1,0 +1,15 @@
+
+/*Selector Specificity: (0, 1, 2) - (0, 1, 2) - (0, 1, 1)*/
+form input:focus, form textarea:focus, input[type="submit"]{
+
+    background-color: #4700B3;
+    color:#fff;
+
+}
+
+/*Selector Specificity: (0,1,1)*/
+input[type="submit"]{
+    padding: 1em;
+    margin: 0.5em;
+    font-size: medium;
+}

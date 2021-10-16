@@ -42,33 +42,6 @@ section {
     text-align: center;
 }
 
-/*Selector Specificity: (0, 0, 1)*/
-ol {
-    color: #fff;
-    background-color: #4700B3;
-    padding: 1.25em;
-}
-/*Selector Specificity: (0, 0, 1)*/
-ul {
-    color: #fff;
-    background-color: #4700B3;
-    padding: 1.25em;
-}
-/*Selector Specificity: (0, 0, 2)*/
-ol li {
-    color: #fff;
-    background-color: #5E00EB;
-    padding: 0.3125em;
-    margin-left: 2.1875em; 
-    
-}
-
-/*Selector Specificity: (0, 0, 2)*/
-ul li {
-    color: #fff;
-    background-color: #5E00EB;
-    margin: 0.3125em;
-}
 
 /*Selector Specificity: (0, 0, 1)*/
 nav {
@@ -88,30 +61,5 @@ nav a {
 p {
     text-align: justify;
 }
-/*Selector Specificity: (0, 0, 1)*/
-img{
-    width: auto;
-    height: auto;
-}
 
-/*Selector Specificity: (0, 0, 1)*/
-video {
-    width: 60%;
-    height: 60%;
-
-}
-/*Selector Specificity: (0, 1, 2) - (0, 1, 2) - (0, 1, 1)*/
-form input:focus, form textarea:focus, input[type="submit"]{
-
-    background-color: #4700B3;
-    color:#fff;
-
-}
-
-/*Selector Specificity: (0,1,1)*/
-input[type="submit"]{
-    padding: 1em;
-    margin: 0.5em;
-    font-size: medium;
-}
 

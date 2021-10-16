@@ -17,3 +17,9 @@
         padding: 2%;
     }
 }
+
+/*Selector Specificity: (0, 0, 1)*/
+img{
+    width: auto;
+    height: auto;
+}
